@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./homepage.css" />
+  </head>
+<body>
+
+<header class="header">
+    <div>
+        <a href="./homepage.html">
+            <div class="logo, wow">
+                <img src="./image/logo numeriqua blanc.png"
+                alt="logo retour a la home page"
+                title="home page"/></a>                
+            </div>
+    </div>
+        <nav class="menu">
+            <a href="./page.actus.html" class="wow">ACTUS</a>
+            <a href="#" class="wow">TECH</a>
+            <a href="#" class="wow">OUTILS</a>
+            <a href="#" class="wow">HARDWARE</a>
+            <a href="#" class="wow">A PROPOS</a>
+            <a href="https://www.1formation-1job.com/" class="wow" target="_blank">PARTENAIRES</a>
+        </nav>
+    <div class="recherche">
+        <form action="rechercher">
+            <input type="search" name="zone de recherche" id="rechercher" placeholder="Recherche..." required>
+            <input type="submit" value="ok" required>
+        </form>
+    </div>
+</header>    
+
+<hero class="hero">
+    <div class="slide-container">
+        <div class="custom-slider fade">
+            <div class="slide-index">1 / 5</div>
+            <a href="./pagefred.html">
+                <img class="slide-img" src="./image/article chatgpt.jpg"></a>
+            <div class="slide-text">ChatGPT</div>
+        </div>
+        <div class="custom-slider fade">
+            <div class="slide-index">2 / 5</div>
+            <a href="./pagefred.html">
+                <img class="slide-img" src="./IMAGE/team0.jpg"></a>
+            <div class="slide-text">TeamViewer</div>
+        </div>
+        <div class="custom-slider fade">
+            <div class="slide-index">3 / 5</div>
+            <a href="./pagefred.html">
+                <img class="slide-img" src="./image/bagare.jpg"></a>
+            <div class="slide-text">Les Outils Collaboratifs</div>
+        </div>
+        <div class="custom-slider fade">
+            <div class="slide-index">4 / 5</div>
+            <a href="./pagefred.html">
+                <img class="slide-img" src="./image/fond.jpg"></a>
+            <div class="slide-text">La Cybersécurité</div>
+        </div>
+        <div class="custom-slider fade">
+            <div class="slide-index">5 / 5</div>
+            <a href="./pagefred.html">
+                <img class="slide-img" src="./image/image d'un ping.png"></a>
+            <div class="slide-text">Les Langages du WEB</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="slide-dot">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+    </div>
+</hero>
+
+<up>
+    <figure>
+        <a href="#">
+            <img src="./image/fleche.png" 
+            class="up" 
+            alt="lien vers le haut de la page" 
+            title="haut de page"></a>
+    </figure>
+</up> -->
+
+<footer class="footer">
+    <nav class="lien">
+        <a href="#" class="wow" target="_blank">
+            <img src="./IMAGE/bouton mail blanc.png"
+            alt="Nous contacter par mail"
+            title="Mail"
+            width="50px"></a>
+        <a href="#" class="wow" target="_blank">
+            <img src="./IMAGE/bouton twitter blanc.png"
+            alt="Nous suivre sur twitter"
+            title="Twitter"
+            width="50px"></a>
+        <a href="#" class="wow" target="_blank">
+            <img src="./IMAGE/bouton facebook blanc.png"
+            alt="Nous suivre sur Facebook"
+            title="Facebook"
+            width="50px"></a>
+        <a href="#" class="wow" target="_blank">
+            <img src="./IMAGE/bouton youtube blanc.png"
+            alt="Nous suivre sur YouTube"
+            title="YouTube"
+            width="50px"></a>
+        <a href="#" class="wow" target="_blank">
+            <img src="./IMAGE/bouton discord blanc.png"
+            alt="Nous rejoindre sur Discord"
+            title="Discord"
+            width="50px"></a>
+    </nav>
+</footer>
+<script src="./homepage.js" type="text/javascript"></script>
+</body>
+</html>
